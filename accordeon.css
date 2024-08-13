@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(55deg,rgb(231, 179, 233) 0%,rgb(194, 133, 189) 50%,rgb(134, 40, 76) 85%);
+}
+
+.top{
+    background-image: url(./img/background-pattern-desktop.svg);
+    background-size: cover;
+    width: 100%;
+    height: 10rem;
+}
+.master{
+    width: 70%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 5rem;
+}
+main{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.FA{
+    flex-direction: row;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+}
+.wh{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+
+}
+.sp{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 100%;
+}
+h5{
+    padding-right: 20rem; 
+}
+.lo{
+     
+  
+width: 100%;
+color: rgb(66, 66, 75);
+}
+.im{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 5rem;
+}
+.recoler{
+    color: aliceblue;
+}
